@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FixedHero from './FixedHero';
 import './MainSection.css';
 import ImageBanner from '../images/bg-hero.png';
+import Projects from './Projects';
 
 export class MainSection extends Component {
   render() {
@@ -13,6 +14,9 @@ export class MainSection extends Component {
         <div className="right_scrollable">
           <div className="right_image">
             <img src={ImageBanner} alt="img"/>
+          </div>
+          <div className="porject-section">
+            <Projects />
           </div>
         </div>
       </div>

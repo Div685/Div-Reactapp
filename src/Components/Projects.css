@@ -1,0 +1,12 @@
+.main-projects{
+
+}
+
+.project-image {
+  padding: 1rem;
+}
+
+.project-image figure img {
+  width: 100%;
+  object-fit: cover;
+}
