@@ -1,0 +1,52 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.main_banner {
+  height: inherit;
+  padding: 0 2rem;
+  font-family:'Crete Round', serif;
+  display: flex;
+    align-items: center;
+}
+
+.banner-text  {
+  padding: 20px;
+}
+
+.banner-text h1{
+  color: #EB5D2B;
+  font-family:'Crete Round', serif;
+  font-size: 45px;
+}
+
+.banner-text h3 {
+  margin: 1rem auto;
+  font-size: 30px;
+}
+
+.banner-text h5{ 
+  margin: 1rem auto;
+  font-size: 24px;
+}
+
+.social_link {
+  display: flex;
+  padding: 0;
+}
+
+.social_link li {
+  list-style: none;
+  margin: 0 1rem 0 0;
+}
+
+.social_link li a {
+  color: #000;
+}
+
+.social_link li a:hover {
+  color: #EB5D2B;
+  cursor: pointer;
+}

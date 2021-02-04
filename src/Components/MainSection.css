@@ -1,0 +1,25 @@
+.main_section {
+  height: 100%;
+  margin-top: 65px;
+}
+
+.left_fixed {
+  background-color: #f7f7f7;
+  width: 45%;
+  height: 95.5vh;
+  float: left;
+  clear: both;
+  position: fixed;
+}
+
+.right_scrollable {
+  background-color: #f7f7f7;
+  width: 55%;
+  float: right;
+}
+
+.right_image img {
+  width: 100%;
+  height: 95.5vh;
+  object-fit: cover;
+}
