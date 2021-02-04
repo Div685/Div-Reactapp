@@ -7,13 +7,20 @@ import { Link } from "react-router-dom";
 
 export class FixedHero extends Component {
   render() {
+
+    if(this.props.data) {
+        var name = this.props.data.name;
+        var occupation = this.props.data.occupation;
+        var description = this.props.data.description;
+    }
+
     return (
       <div className="main_banner">
         <div className="banner-text">
           <h1>Hi There!</h1>
-          <h1>I'm Divyesh Patel</h1>
-          <h3>I'm a Full Stack Developer.</h3>
-          <h5>I'm Passionate about building Web applications and solving complex business problems. </h5>
+          <h1>I'm {name}</h1>
+          <h3>I'm a {occupation}.</h3>
+          <h5> {description}. </h5>
             <ul className="social_link">
               <li>
                 <a href="https://github.com/Div685" className="" rel="noopener noreferrer" target="_blank">

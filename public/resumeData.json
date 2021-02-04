@@ -1,0 +1,23 @@
+{
+  "main": {
+    "name": "Divyesh Patel",
+    "occupation": "Full Stack Developer",
+    "description": "I'm Passionate about building Web applications and solving complex business problems"
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "!PetsLiFestyLE",
+        "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
+        "giturl": "",
+        "livelink": ""
+      },
+      {
+        "title": "!PetsLiFestyLE",
+        "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
+        "giturl": "",
+        "livelink": ""
+      }
+    ]
+  }
+}
