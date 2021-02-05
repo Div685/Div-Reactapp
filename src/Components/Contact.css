@@ -1,13 +1,19 @@
+/* Mobile Screen */
 .main-contact {
-  margin: 10rem 0;
+  margin: 10rem 0 0 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-family:'Crete Round', serif;
+  flex-direction: column;
+  background-color: #f7f7f7;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
+  color: #EB5D2B;
+  font-family:'Crete Round', serif;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .main-contact p{
@@ -26,15 +32,130 @@ h2 {
 }
 
 .email {
-  margin: 0 1rem 0 0;
+  margin: 0 .5rem 0 0;
 }
 
 .main-contact ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
 .main-contact ul li {
   list-style: none;
-  margin: 1rem .5rem;
-  padding: 0 1.5rem;
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+}
+
+.list-socialapp {
+  margin-bottom: 10rem;
+}
+
+/* Tablet Screen */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .main-contact {
+    margin: 10rem 0 0 0;
+    display: flex;
+    align-items: center;
+    font-family:'Crete Round', serif;
+    flex-direction: row;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  
+  .main-contact p{
+    padding: 1.5rem;
+    font-size: 24px;
+    font-family:'Crete Round', serif;
+    width: 85%;
+  }
+
+  .left-contact {
+    margin: 0 0 10rem 0;
+  }
+  
+  .left-contact span {
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #EB5D2B;
+  }
+  
+  .email {
+    margin: 0 1rem 0 0;
+  }
+  
+  .main-contact ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact ul li {
+    list-style: none;
+    margin: 1rem .5rem;
+    padding: 0 1.5rem;
+  }
+
+  .list-socialapp {
+    margin-bottom: 10rem;
+  }
+}
+
+
+/* Large Screen */
+
+@media screen and (min-device-width: 1024px) {
+
+  .main-contact {
+    margin: 10rem 0;
+    display: flex;
+    align-items: center;
+    font-family:'Crete Round', serif;
+    flex-direction: row;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  
+  .main-contact p{
+    padding: 1.5rem;
+    font-size: 24px;
+    font-family:'Crete Round', serif;
+    width: 85%;
+  }
+  
+  .left-contact span {
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #EB5D2B;
+  }
+
+  
+  .email {
+    margin: 0 1rem 0 0;
+  }
+  
+  .list-socialapp {
+    margin-bottom: 0;
+  }
+
+  .main-contact ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact ul li {
+    list-style: none;
+    margin: 1rem .5rem;
+    padding: 0 1.5rem;
+  }
 }

@@ -25,7 +25,7 @@ class Projects extends Component {
 
     return (
       <section className="main-projects" id="projects">
-        <h2>Projects</h2>
+        <h2 class="project-title">Projects</h2>
         <div className="project-image">
           {projects}
         </div>

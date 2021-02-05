@@ -5,11 +5,11 @@
   font-family:'Crete Round', serif;
 }
 
-h2 {
+.project-title {
   color: #EB5D2B;
   font-family:'Crete Round', serif;
   font-size: 34px;
-  padding: 0 1.5rem;
+  padding: 4rem 1.5rem 0 1.5rem;
 }
 
 .project-image {
