@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Projects.css'
+import './Projects.css';
+
 
 class Projects extends Component {
   render() {
@@ -23,7 +24,7 @@ class Projects extends Component {
     }
 
     return (
-      <section className="main-projects">
+      <section className="main-projects" id="projects">
         <h2>Projects</h2>
         <div className="project-image">
           {projects}

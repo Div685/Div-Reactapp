@@ -38,7 +38,7 @@ class MainSection extends Component {
 
   render() {
     return (
-      <div className="main_section">
+      <div className="main_section" id="home">
         
           <div className="left_fixed">
             <FixedHero data={this.state.resumeData.main} />

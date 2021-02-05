@@ -1,3 +1,4 @@
+/* Mobile Screen */
 .main_section {
   height: 100%;
   margin-top: 65px;
@@ -5,21 +6,78 @@
 
 .left_fixed {
   background-color: #f7f7f7;
-  width: 45%;
-  height: 89.8vh;
-  float: left;
-  clear: both;
-  position: fixed;
+  width: 100%;
+  height: 91vh;
 }
 
 .right_scrollable {
   background-color: #f7f7f7;
-  width: 55%;
-  float: right;
+  width: 100%;
 }
 
 .right_image img {
   width: 100%;
   height: 89.8vh;
   object-fit: cover;
+  display: none;
+}
+
+
+/* Tablet screen between 768 and 1024*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+.main_section {
+  height: 100%;
+  margin-top: 65px;
+}
+
+.left_fixed {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 91vh;
+}
+
+.right_scrollable {
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.right_image img {
+  width: 100%;
+  height: 89.8vh;
+  object-fit: cover;
+  display: none;
+}
+}
+
+/* Large Screen > 1024px */
+
+@media screen and (min-device-width: 1024px) {
+  .main_section {
+    height: 100%;
+    margin-top: 65px;
+  }
+  
+  .left_fixed {
+    background-color: #f7f7f7;
+    width: 45%;
+    height: 89.8vh;
+    float: left;
+    clear: both;
+    position: fixed;
+  }
+  
+  .right_scrollable {
+    background-color: #f7f7f7;
+    width: 55%;
+    float: right;
+  }
+  
+  .right_image img {
+    width: 100%;
+    height: 89.8vh;
+    object-fit: cover;
+    display: block;
+  }
 }
