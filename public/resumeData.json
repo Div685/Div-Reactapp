@@ -10,15 +10,15 @@
         "title": "!PetsLiFestyLE",
         "description": "!PeTsLifestyLE The website is about reading and writing an article about pets. Users can also vote and comment on an article but to do that users need to signup and login",
         "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
-        "giturl": "",
-        "livelink": ""
+        "giturl": "https://github.com/Div685/ror-lifestyle-app",
+        "livelink": "https://lit-wave-20571.herokuapp.com/"
       },
       {
-        "title": "!PetsLiFestyLE",
-        "description": "",
-        "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
-        "giturl": "",
-        "livelink": ""
+        "title": "Netflix Clone",
+        "description": "Netflix Clone using ReactJs, TMDB API. The main goal for this project was to make website identical to Netflix using React and pulling data from TMDB API. User can watch available movie trailer",
+        "image": "https://github.com/Div685/React-Netflix-Clone-webApp/raw/master/src/screenshots/netflix-screenshot1.png",
+        "giturl": "https://github.com/Div685/React-Netflix-Clone-webApp",
+        "livelink": "https://netflix-clone-webapp.web.app/"
       }
     ]
   }
