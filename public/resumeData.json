@@ -8,12 +8,14 @@
     "projects": [
       {
         "title": "!PetsLiFestyLE",
+        "description": "!PeTsLifestyLE The website is about reading and writing an article about pets. Users can also vote and comment on an article but to do that users need to signup and login",
         "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
         "giturl": "",
         "livelink": ""
       },
       {
         "title": "!PetsLiFestyLE",
+        "description": "",
         "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
         "giturl": "",
         "livelink": ""
