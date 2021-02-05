@@ -4,7 +4,7 @@ import FixedHero from './FixedHero';
 import './MainSection.css';
 import ImageBanner from '../images/bg-hero.png';
 import Projects from './Projects';
-import Footer from './Footer';
+import Contact from './Contact';
 
 class MainSection extends Component {
 
@@ -47,9 +47,8 @@ class MainSection extends Component {
             <div className="right_image">
               <img src={ImageBanner} alt="img"/>
             </div>
-            <div className="porject-section">
-              <Projects data={this.state.resumeData.portfolio} />           
-            </div>
+              <Projects data={this.state.resumeData.portfolio} />
+              <Contact />      
           </div>
       </div>
     )

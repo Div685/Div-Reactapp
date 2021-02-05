@@ -8,15 +8,15 @@ class Projects extends Component {
     if(this.props.data) {
       var projects = this.props.data.projects.map(function(projects){
         return (
-          <div key={projects.title} class="project-details">
+          <div key={projects.title} className="project-details">
             <figure>
               <img src={projects.image} alt="screenshot"/>
               <figcaption> {projects.title} </figcaption>
             </figure>
             <div className="bottom-links">
               <p>{projects.description}.</p>
-              <span class="btn-git"> <a href={projects.giturl}> Github Repo </a> </span>
-              <span class="btn-live"> <a href={projects.livelink}> Live Demo </a></span>
+              <span className="btn-git"> <a href={projects.giturl}> Github Repo </a> </span>
+              <span className="btn-live"> <a href={projects.livelink}> Live Demo </a></span>
             </div>
           </div>
         )

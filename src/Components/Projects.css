@@ -9,6 +9,7 @@ h2 {
   color: #EB5D2B;
   font-family:'Crete Round', serif;
   font-size: 34px;
+  padding: 0 1.5rem;
 }
 
 .project-image {
@@ -61,4 +62,65 @@ h2 {
   text-decoration: none;
   color: #EB5D2B;
   font-family:'Crete Round', serif;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  h2 {
+    color: #EB5D2B;
+    font-family:'Crete Round', serif;
+    font-size: 34px;
+  }
+  
+  .project-image {
+    padding: 1.5rem;
+  }
+  
+  .project-image figure img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .project-image figure figcaption{
+    display: flex;
+    justify-content: center;
+    color: #EB5D2B;
+    padding: 10px;
+    border-width: 10%;
+    font-size: 22px;
+    font-weight: 400erif;
+    font-family:'Crete Round', serif;
+  }
+  
+  .project-details{
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px 2px rgb(167 170 172 / 20%);
+    padding: 1.5rem;
+    transition: 0.3s
+  }
+  
+  .project-details:hover {
+    box-shadow: 0 8px 20px 4px rgb(0 0 0 / 20%);
+  }
+  
+  .bottom-links p {
+    margin: 0 0 16px 0;
+    font-family:'Crete Round', serif;
+  }
+  
+  .btn-git a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #EB5D2B;
+    color: #fff;
+    margin: 10px 10px 0 0 ;
+    border-radius: 5px;
+    font-family:'Crete Round', serif;
+  }
+  
+  .btn-live a {
+    text-decoration: none;
+    color: #EB5D2B;
+    font-family:'Crete Round', serif;
+  }
 }

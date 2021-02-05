@@ -1,0 +1,40 @@
+.main-contact {
+  margin: 10rem 0;
+  display: flex;
+  align-items: center;
+  font-family:'Crete Round', serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.main-contact p{
+  padding: 1.5rem;
+  font-size: 24px;
+  font-family:'Crete Round', serif;
+  width: 85%;
+}
+
+.left-contact span {
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #EB5D2B;
+}
+
+.email {
+  margin: 0 1rem 0 0;
+}
+
+.main-contact ul {
+  display: flex;
+  flex-direction: column;
+}
+.main-contact ul li {
+  list-style: none;
+  margin: 1rem .5rem;
+  padding: 0 1.5rem;
+}

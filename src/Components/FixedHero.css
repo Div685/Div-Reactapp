@@ -4,12 +4,14 @@
   line-height: 1.2;
 }
 
+/* Mobile */
+
 .main_banner {
   height: inherit;
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-family:'Crete Round', serif;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 .banner-text  {
@@ -19,17 +21,17 @@
 .banner-text h1{
   color: #EB5D2B;
   font-family:'Crete Round', serif;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .banner-text h3 {
   margin: 1rem auto;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .banner-text h5{ 
   margin: 1rem auto;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .social_link {
@@ -49,4 +51,107 @@
 .social_link li a:hover {
   color: #EB5D2B;
   cursor: pointer;
+}
+
+/* Tablet screen between 768 and 1024*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main_banner {
+    height: inherit;
+    padding: 0 2rem;
+    font-family:'Crete Round', serif;
+    display: flex;
+      align-items: center;
+  }
+  
+  .banner-text  {
+    padding: 20px;
+  }
+  
+  .banner-text h1{
+    color: #EB5D2B;
+    font-family:'Crete Round', serif;
+    font-size: 45px;
+  }
+  
+  .banner-text h3 {
+    margin: 1rem auto;
+    font-size: 30px;
+  }
+  
+  .banner-text h5{ 
+    margin: 1rem auto;
+    font-size: 24px;
+  }
+  
+  .social_link {
+    display: flex;
+    padding: 0;
+  }
+  
+  .social_link li {
+    list-style: none;
+    margin: 0 1rem 0 0;
+  }
+  
+  .social_link li a {
+    color: #000;
+  }
+  
+  .social_link li a:hover {
+    color: #EB5D2B;
+    cursor: pointer;
+  }
+}
+
+/* Large Screen > 1024px */
+
+@media screen and (min-device-width: 1024px) {
+
+  .main_banner {
+    height: inherit;
+    padding: 0 2rem;
+    font-family:'Crete Round', serif;
+    display: flex;
+      align-items: center;
+  }
+  
+  .banner-text  {
+    padding: 20px;
+  }
+  
+  .banner-text h1{
+    color: #EB5D2B;
+    font-family:'Crete Round', serif;
+    font-size: 45px;
+  }
+  
+  .banner-text h3 {
+    margin: 1rem auto;
+    font-size: 30px;
+  }
+  
+  .banner-text h5{ 
+    margin: 1rem auto;
+    font-size: 24px;
+  }
+  
+  .social_link {
+    display: flex;
+    padding: 0;
+  }
+  
+  .social_link li {
+    list-style: none;
+    margin: 0 1rem 0 0;
+  }
+  
+  .social_link li a {
+    color: #000;
+  }
+  
+  .social_link li a:hover {
+    color: #EB5D2B;
+    cursor: pointer;
+  }
 }
