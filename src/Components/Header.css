@@ -13,7 +13,7 @@ nav {
 nav ul {
   display: flex;
   text-decoration: none;
-  margin: 0 3rem 0 0;
+  margin: 0 2rem 0 0;
 }
 
 nav ul li {
@@ -28,4 +28,153 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #EB5D2B;
+}
+
+.rightside_nav ul li{
+  display: none;
+}
+
+/* // mobie nav bar */
+.sidenav ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-top: 75px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #EB5D2B;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #000;
+}
+
+.menu-icon {
+  display: block;
+
+}
+
+/* Tablet Screen */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+    background: #fff;
+    font-family: 'Crete Round', serif;
+  }
+  
+  nav ul {
+    display: flex;
+    text-decoration: none;
+    margin: 0 3rem 0 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav ul li a:hover {
+    color: #EB5D2B;
+  }
+  
+  .rightside_nav ul li{
+    display: block;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
+
+/* Large Screen > 1024px */
+
+@media screen and (min-device-width: 1024px) {
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+    background: #fff;
+    font-family: 'Crete Round', serif;
+  }
+  
+  nav ul {
+    display: flex;
+    text-decoration: none;
+    margin: 0 3rem 0 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav ul li a:hover {
+    color: #EB5D2B;
+  }
+  
+  .rightside_nav ul li{
+    display: block;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
 }

@@ -1,11 +1,12 @@
 /* Mobile Screen */
 .main-contact {
-  margin: 10rem 0 0 0;
+  height: 91vh;
   display: flex;
   align-items: flex-start;
   font-family:'Crete Round', serif;
   flex-direction: column;
   background-color: #f7f7f7;
+  justify-content: center;
 }
 
 h2 {
@@ -46,16 +47,12 @@ h2 {
   padding: 1rem 1.5rem;
 }
 
-.list-socialapp {
-  margin-bottom: 10rem;
-}
 
 /* Tablet Screen */
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
   .main-contact {
-    margin: 10rem 0 0 0;
     display: flex;
     align-items: center;
     font-family:'Crete Round', serif;
@@ -73,10 +70,6 @@ h2 {
     font-size: 24px;
     font-family:'Crete Round', serif;
     width: 85%;
-  }
-
-  .left-contact {
-    margin: 0 0 10rem 0;
   }
   
   .left-contact span {
@@ -101,9 +94,6 @@ h2 {
     padding: 0 1.5rem;
   }
 
-  .list-socialapp {
-    margin-bottom: 10rem;
-  }
 }
 
 
@@ -112,7 +102,6 @@ h2 {
 @media screen and (min-device-width: 1024px) {
 
   .main-contact {
-    margin: 10rem 0;
     display: flex;
     align-items: center;
     font-family:'Crete Round', serif;
