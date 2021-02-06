@@ -18,10 +18,10 @@ class About extends Component {
           <span className="iconify" data-icon="logos:flutter" title="Flutter" data-inline="false"></span>
           <span className="iconify" data-icon="logos:github-icon" title="GitHub" data-inline="false"></span>
           <span className="iconify" data-icon="logos:git" title="Git" data-inline="false"></span>
-          <span class="iconify" data-icon="logos:mongodb" title="MongoDB" data-inline="false"></span>
-          <span class="iconify" data-icon="vscode-icons:file-type-sql" title="SQL" data-inline="false"></span>
-          <span class="iconify" data-icon="logos:postgresql" title="PostgreSql" data-inline="false"></span>
-          <span class="iconify" data-icon="flat-color-icons:linux" data-inline="false"></span>
+          <span className="iconify" data-icon="logos:mongodb" title="MongoDB" data-inline="false"></span>
+          <span className="iconify" data-icon="vscode-icons:file-type-sql" title="SQL" data-inline="false"></span>
+          <span className="iconify" data-icon="logos:postgresql" title="PostgreSql" data-inline="false"></span>
+          <span className="iconify" data-icon="flat-color-icons:linux" data-inline="false"></span>
 
         </div>
       </div>  

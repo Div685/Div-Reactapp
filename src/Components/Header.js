@@ -22,7 +22,7 @@ class Header extends Component {
         <div class="rightside_nav">
         <ul>
           <li> <a className="smoothscroll" href="#home"> Home </a></li>
-          <li> <a className="smoothscroll" href="#about">About</a></li>
+          <li> <a className="smoothscroll" href="#about">Skills</a></li>
           <li> <a className="smoothscroll" href="#projects">Projects</a> </li>
           <li> <a className="smoothscroll" href="#contact">Contact</a></li>
         </ul>
@@ -34,7 +34,7 @@ class Header extends Component {
           <a href="javascript:void(0)" class="closebtn" onClick={() => this.closeNav()}>&times;</a>
           <ul>
           <li> <a className="smoothscroll" href="#home"> Home </a></li>
-          <li> <a className="smoothscroll" href="#about">About</a></li>
+          <li> <a className="smoothscroll" href="#about">Skills</a></li>
           <li> <a className="smoothscroll" href="#projects">Projects</a> </li>
           <li> <a className="smoothscroll" href="#contact">Contact</a></li>
         </ul>
