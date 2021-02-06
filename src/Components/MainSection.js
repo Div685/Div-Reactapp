@@ -5,6 +5,7 @@ import './MainSection.css';
 import ImageBanner from '../images/bg-hero.png';
 import Projects from './Projects';
 import Contact from './Contact';
+import About from './About';
 
 class MainSection extends Component {
 
@@ -47,6 +48,7 @@ class MainSection extends Component {
             <div className="right_image">
               <img src={ImageBanner} alt="img"/>
             </div>
+              <About />
               <Projects data={this.state.resumeData.portfolio} />
               <Contact />      
           </div>

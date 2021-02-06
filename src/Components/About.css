@@ -1,0 +1,23 @@
+.main-about {
+  font-family:'Crete Round', serif;
+  background: #fff;
+
+}
+
+.main-about h2 {
+  font-size: 34px;
+  padding: 4rem 1.5rem 0 1.5rem;
+}
+
+.hard-skill {
+  padding: 1.5rem;
+}
+
+.hard-skill .iconify{
+  font-size: 40px;
+  margin: 10px 12px;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
