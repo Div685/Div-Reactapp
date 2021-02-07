@@ -8,7 +8,7 @@
     "projects": [
       {
         "title": "!PetsLiFestyLE",
-        "description": "!PeTsLifestyLE The website is about reading and writing an article about pets. Users can also vote and comment on an article but to do that users need to signup and login",
+        "description": "!PeTsLifestyLE is the website Created Using Rails, Bootstrap, and postgreSql. The main goal for this project was to create a website where User can read and write an article about pets. Users can also vote and comment on an article but to do that users need to signup and login",
         "image": "https://github.com/Div685/ror-lifestyle-app/raw/development/screencapture.png",
         "giturl": "https://github.com/Div685/ror-lifestyle-app",
         "livelink": "https://lit-wave-20571.herokuapp.com/"
@@ -19,6 +19,13 @@
         "image": "https://github.com/Div685/React-Netflix-Clone-webApp/raw/master/src/screenshots/netflix-screenshot1.png",
         "giturl": "https://github.com/Div685/React-Netflix-Clone-webApp",
         "livelink": "https://netflix-clone-webapp.web.app/"
+      },
+      {
+        "title": "COVID-19 Tracker",
+        "description": "COVID-19 Tracker using ReactJs,disease.sh COVID-19 API. The main goal for this project was to show all the covid cases as Total Active Cases, Recoverd, and Deaths in the country. ",
+        "image": "https://github.com/Div685/Corona-Tracker/raw/master/src/screenshot/covid%203.jpg",
+        "giturl": "https://github.com/Div685/Corona-Tracker",
+        "livelink": "https://covid-19-tracker-app-9a604.web.app/"
       }
     ]
   }

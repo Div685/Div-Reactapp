@@ -16,7 +16,7 @@ class Header extends Component {
   render() {
     return (
       <nav id="main">
-        <div>
+        <div class="logo">
           <span>Divyesh</span>
         </div>
         <div class="rightside_nav">
