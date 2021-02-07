@@ -93,6 +93,11 @@ animation:
   blink-caret .75s step-end infinite;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* The typing effect */
 @keyframes typing {
 from { width: 0 }

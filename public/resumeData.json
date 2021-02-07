@@ -27,6 +27,22 @@
         "giturl": "https://github.com/Div685/Corona-Tracker",
         "livelink": "https://covid-19-tracker-app-9a604.web.app/"
       }
+    ],
+    "other_projects": [
+      {
+        "title": "Paathyakram",
+        "description": "Paathyakram is a website Created Using HTML, CSS, Bootstrap. This project is a front-end project with pure HTML, CSS and Bootstrap.",
+        "image": "images/capstone_html.png",
+        "giturl": "https://github.com/Div685/HTML-CSS-Capstone",
+        "livelink": "https://awesome-jang-809c28.netlify.app/"
+      },
+      {
+        "title": "TIC TAC TOE",
+        "description": "Tic Tac Toe Game Developed using Ruby. It was a collaborative project to test OOP concept Using Ruby. ",
+        "image": "https://camo.githubusercontent.com/09fc3182c7dc70b1e77c34d300d73a523400583b1903d1a18191a88335b064a4/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33322f5469635f7461635f746f652e7376672f32303070782d5469635f7461635f746f652e7376672e706e67",
+        "giturl": "https://github.com/Div685/rspec_TicTacToe",
+        "livelink": "https://repl.it/@IjayAbby/Tic-Tac-Toe"
+      }
     ]
   }
 }

@@ -68,6 +68,69 @@
   font-family:'Crete Round', serif;
 }
 
+/* other Project section */
+
+
+.other-projects {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.other-project-details {
+  margin: 0 0 30px 0;
+}
+
+.img-pro {
+  width: 100%;
+  height: 250px;
+}
+
+.btn-otherproject {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-otherproject span {
+  margin: 5px 0;
+}
+
+.btn-git-full {
+  background-color: #EB5D2B;
+  border-radius: 5px;
+  font-family:'Crete Round', serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-git-full a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-live-full a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-live-full {
+  background-color: #EB5D2B;
+  border-radius: 5px;
+  font-family:'Crete Round', serif;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.other-project-details figure figcaption {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  color: #EB5D2B;
+}
+
+
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
   h2 {
@@ -126,5 +189,94 @@
     text-decoration: none;
     color: #EB5D2B;
     font-family:'Crete Round', serif;
+  }
+
+  .other-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .other-project-details .img-pro {
+    width: 100%;
+    height: 250px;
+  }
+
+  .other-projects p {
+    overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-align: justify;
+      }
+
+
+}
+
+@media screen and (min-device-width: 1024px) {
+  .other-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .other-project-details .img-pro {
+    width: 100%;
+    height: 250px;
+  }
+
+  .other-projects p {
+    overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-align: justify;
+      }
+
+  .btn-git-full {
+    background-color: #EB5D2B;
+    border-radius: 5px;
+    font-family:'Crete Round', serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-git-full a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .btn-live-full a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .btn-live-full {
+    background-color: #EB5D2B;
+    border-radius: 5px;
+    font-family:'Crete Round', serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .btn-otherproject {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .btn-otherproject span {
+    margin: 5px 0;
+  }
+
+  .other-project-details figure figcaption {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    color: #EB5D2B;
   }
 }

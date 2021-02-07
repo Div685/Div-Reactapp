@@ -20,17 +20,43 @@ class Projects extends Component {
             </div>
           </div>
         )
+      });
+
+      var other_projects = this.props.data.other_projects.map(function(other_projects){
+        return(
+          <div key={other_projects.title} className="other-project-details">
+            <figure>
+              <img className="img-pro" src={other_projects.image} alt="screenshot"/>
+              <figcaption> {other_projects.title} </figcaption>
+            </figure>
+            <div className="bottom-links">
+              <p>{other_projects.description}.</p>
+              <div className="btn-otherproject">
+              <span className="btn-git-full"> <a href={other_projects.giturl}> Github Repo </a> </span>
+              <span className="btn-live-full"> <a href={other_projects.livelink}> Live Demo </a></span>
+              </div>
+            </div>
+          </div>
+        )
       })
     }
 
     return (
-      <section className="main-projects" id="projects">
-        <h2 className="project-title">Projects</h2>
-        <div className="project-image">
-          {projects}
-        </div>
+      <div>
+        <section className="main-projects" id="projects">
+          <h2 className="project-title">Projects</h2>
+          <div className="project-image">
+            {projects}
+          </div>
+        </section>
 
-      </section>
+        <section className="main-projects">
+          <h2 className="project-title">Other Projects</h2>
+          <div className="other-projects">
+            {other_projects}
+          </div>
+        </section>
+      </div>
     )
   }
 }

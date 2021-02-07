@@ -16,7 +16,7 @@ class Header extends Component {
     return (
       <nav id="main">
         <div className="logo">
-          <span>Divyesh</span>
+          <span> <a href="#"> Divyesh </a></span>
         </div>
         <div className="rightside_nav">
         <ul>
