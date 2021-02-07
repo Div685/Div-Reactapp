@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './Header.css';
-import { Link } from "react-router-dom";
 
 class Header extends Component {
   openNav() {
@@ -16,10 +15,10 @@ class Header extends Component {
   render() {
     return (
       <nav id="main">
-        <div class="logo">
+        <div className="logo">
           <span>Divyesh</span>
         </div>
-        <div class="rightside_nav">
+        <div className="rightside_nav">
         <ul>
           <li> <a className="smoothscroll" href="#home"> Home </a></li>
           <li> <a className="smoothscroll" href="#about">Skills</a></li>
@@ -30,8 +29,8 @@ class Header extends Component {
         </div>
 
         {/* // <!-- nav mobile Screen--> */}
-        <div class="sidenav d-md-none d-lg-none d-flex flex-column" id="mySidenav">
-          <a href="javascript:void(0)" class="closebtn" onClick={() => this.closeNav()}>&times;</a>
+        <div className="sidenav d-md-none d-lg-none d-flex flex-column" id="mySidenav">
+          <a href="javascript:void(0)" className="closebtn" onClick={() => this.closeNav()}>&times;</a>
           <ul>
           <li> <a className="smoothscroll" href="#home"> Home </a></li>
           <li> <a className="smoothscroll" href="#about">Skills</a></li>
