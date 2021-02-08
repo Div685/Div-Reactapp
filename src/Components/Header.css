@@ -8,6 +8,7 @@ nav {
   width: 100%;
   background: #fff;
   font-family: 'Crete Round', serif;
+  box-shadow: 1px 1px 0 1px #a7aaac;
 }
 
 nav ul {
@@ -24,6 +25,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -52,7 +54,7 @@ nav ul li a:hover {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  margin-top: 65px;
+  margin-top: 73px;
 }
 
 .sidenav a {
@@ -84,18 +86,22 @@ nav ul li a:hover {
 
 .logo {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em solid black; /* The typwriter cursor */
-white-space: nowrap; /* Keeps the content on a single line */
-/* margin: 0 auto; Gives that scrolling effect as the typing happens */
-letter-spacing: .15em; /* Adjust as needed */
-animation: 
-  typing 3.5s steps(40, end),
-  blink-caret .75s step-end infinite;
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
 .logo a {
   text-decoration: none;
   color: #000;
+  margin-left: 1.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 /* The typing effect */
@@ -138,6 +144,7 @@ from, to { border-color: transparent }
   nav ul li a {
     text-decoration: none;
     color: #000;
+    font-size: 20px;
   }
   
   nav ul li a:hover {
@@ -211,6 +218,7 @@ from, to { border-color: transparent }
   nav ul li a {
     text-decoration: none;
     color: #000;
+    font-size: 20px;
   }
   
   nav ul li a:hover {
