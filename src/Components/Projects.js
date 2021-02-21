@@ -15,8 +15,8 @@ class Projects extends Component {
             </figure>
             <div className="bottom-links">
               <p>{projects.description}.</p>
-              <span className="btn-git"> <a href={projects.giturl}> Github Repo </a> </span>
-              <span className="btn-live"> <a href={projects.livelink}> Live Demo </a></span>
+              <span className="btn-git"> <a href={projects.giturl} rel="noopener noreferrer" target="_blank"> Github Repo </a> </span>
+              <span className="btn-live"> <a href={projects.livelink} rel="noopener noreferrer" target="_blank"> Live Demo </a></span>
             </div>
           </div>
         )
@@ -32,8 +32,8 @@ class Projects extends Component {
             <div className="bottom-links">
               <p>{other_projects.description}.</p>
               <div className="btn-otherproject">
-              <span className="btn-git-full"> <a href={other_projects.giturl}> Github Repo </a> </span>
-              <span className="btn-live-full"> <a href={other_projects.livelink}> Live Demo </a></span>
+              <span className="btn-git-full"> <a href={other_projects.giturl} rel="noopener noreferrer" target="_blank"> Github Repo </a> </span>
+              <span className="btn-live-full"> <a href={other_projects.livelink} rel="noopener noreferrer" target="_blank" > Live Demo </a></span>
               </div>
             </div>
           </div>
