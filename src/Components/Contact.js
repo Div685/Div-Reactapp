@@ -11,7 +11,7 @@ class Contact extends Component {
       <div className="main-contact" id="contact">
         <div className="left-contact">
           <h2>Let's work together!</h2>
-          <p>Have Project you'd like to discuss? Feel free to connect with me through my social media or send me an email.</p>
+          <p>Have a project you'd like to discuss? Feel free to connect with me through my social media or send me an email.</p>
           <span> <EmailIcon className="email"/> divyeshpatel685@gmail.com</span>
         </div>
         <div className="list-socialapp">
