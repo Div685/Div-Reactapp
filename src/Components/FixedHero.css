@@ -63,6 +63,11 @@
   margin-top: 16px;
 }
 
+.btn-git-cv a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Tablet screen between 768 and 1024*/
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {

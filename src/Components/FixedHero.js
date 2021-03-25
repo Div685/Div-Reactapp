@@ -38,7 +38,7 @@ export class FixedHero extends Component {
               </li>
             </ul>
             <span className="btn-git-cv">
-              <a href="#" className="">Download my CV</a>
+              <a href="https://" rel="noopener noreferrer" target="_blank">Download My CV</a>
             </span>
         </div>
       </div>
