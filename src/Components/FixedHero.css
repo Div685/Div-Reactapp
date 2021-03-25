@@ -53,6 +53,16 @@
   cursor: pointer;
 }
 
+.btn-git-cv {
+  background-color: #EB5D2B;
+  border-radius: 5px;
+  font-family:'Crete Round', serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
 /* Tablet screen between 768 and 1024*/
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
