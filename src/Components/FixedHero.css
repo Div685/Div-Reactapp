@@ -61,7 +61,7 @@
   display: flex;
   justify-content: center;
   margin-top: 24px;
-  width: 75%;
+  width: 150px;
 }
 
 .btn-git-cv a {
@@ -118,6 +118,22 @@
     color: #EB5D2B;
     cursor: pointer;
   }
+
+  .btn-git-cv {
+    background-color: #EB5D2B;
+    border-radius: 5px;
+    font-family:'Crete Round', serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    width: 150px;
+  }
+  
+  .btn-git-cv a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 /* Large Screen > 1024px */
@@ -169,5 +185,21 @@
   .social_link li a:hover {
     color: #EB5D2B;
     cursor: pointer;
+  }
+
+  .btn-git-cv {
+    background-color: #EB5D2B;
+    border-radius: 5px;
+    font-family:'Crete Round', serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    width: 200px;
+  }
+  
+  .btn-git-cv a {
+    color: #fff;
+    text-decoration: none;
   }
 }
