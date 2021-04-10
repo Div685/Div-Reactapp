@@ -11,7 +11,7 @@ export class FixedHero extends Component {
         var name = this.props.data.name;
         var occupation = this.props.data.occupation;
         var description = this.props.data.description;
-        var pdf = this.props.data.resumepdf; 
+        var pdf = this.props.data.socialLink.resumeLink; 
         var gitHub = this.props.data.socialLink.gitHub;
         var twitter = this.props.data.socialLink.twitter;
         var linkedIn = this.props.data.socialLink.linkedIn;
