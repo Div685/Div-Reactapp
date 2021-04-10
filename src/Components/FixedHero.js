@@ -11,6 +11,8 @@ export class FixedHero extends Component {
         var name = this.props.data.name;
         var occupation = this.props.data.occupation;
         var description = this.props.data.description;
+        var pdf = this.props.data.resumepdf; 
+        var gitHub = this.props.data.socialLink.gitHub;
     }
 
     return (
@@ -22,7 +24,7 @@ export class FixedHero extends Component {
           <h5> {description}. </h5>
             <ul className="social_link">
               <li>
-                <a href="https://github.com/Div685" className="" rel="noopener noreferrer" target="_blank">
+                <a href={gitHub} className="" rel="noopener noreferrer" target="_blank">
                   <GitHubIcon />
                 </a>
               </li>
@@ -38,7 +40,7 @@ export class FixedHero extends Component {
               </li>
             </ul>
             <span className="btn-git-cv">
-              <a href="https://" rel="noopener noreferrer" target="_blank">Download My CV</a>
+              <a href={pdf} rel="noopener noreferrer" target="_blank" download="DivResume">Download My CV</a>
             </span>
         </div>
       </div>

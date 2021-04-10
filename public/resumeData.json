@@ -2,7 +2,13 @@
   "main": {
     "name": "Divyesh Patel",
     "occupation": "Full Stack Developer",
-    "description": "I'm Passionate about building Web applications and solving complex business problems"
+    "resumepdf": "images/resume.pdf",
+    "description": "I'm Passionate about building Web applications and solving complex business problems",
+    "socialLink": 
+      {
+        "gitHub":"https://github.com/Div685"
+      }
+  
   },
   "portfolio": {
     "projects": [
