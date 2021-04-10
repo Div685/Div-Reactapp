@@ -13,6 +13,8 @@ export class FixedHero extends Component {
         var description = this.props.data.description;
         var pdf = this.props.data.resumepdf; 
         var gitHub = this.props.data.socialLink.gitHub;
+        var twitter = this.props.data.socialLink.twitter;
+        var linkedIn = this.props.data.socialLink.linkedIn;
     }
 
     return (
@@ -29,12 +31,12 @@ export class FixedHero extends Component {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/div_685" rel="noopener noreferrer" target="_blank">
+                <a href={twitter} rel="noopener noreferrer" target="_blank">
                   <TwitterIcon />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/divyesh-daxa-patel/" rel="noopener noreferrer" target="_blank">
+                <a href={linkedIn} rel="noopener noreferrer" target="_blank">
                   <LinkedInIcon />
                 </a>
               </li>
