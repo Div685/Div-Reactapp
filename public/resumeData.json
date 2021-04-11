@@ -2,7 +2,16 @@
   "main": {
     "name": "Divyesh Patel",
     "occupation": "Full Stack Developer",
-    "description": "I'm Passionate about building Web applications and solving complex business problems"
+    "resumepdf": "images/resume.pdf",
+    "description": "I'm Passionate about building Web applications and solving complex business problems",
+    "socialLink": 
+      {
+        "gitHub":"https://github.com/Div685",
+        "twitter": "https://twitter.com/div_685",
+        "linkedIn": "https://www.linkedin.com/in/divyesh-daxa-patel/",
+        "resumeLink": "https://drive.google.com/file/d/14V6KvZ_ufHBnLOfXhtpC0hIZyv8mPenp/view?usp=sharing"
+      }
+  
   },
   "portfolio": {
     "projects": [
